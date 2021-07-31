@@ -36,6 +36,8 @@ page{
   /*全局背景颜色配置*/
   --bg-page: #f8f8f9;
   --bg-disabled: #e6e6e7;
+  --bg-btn: #e3e3e5;
+  --bg-describe: #e7e7e7;
 
   --href: #44abde;
   --href-dark: #388ab5;

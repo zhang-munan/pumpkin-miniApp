@@ -14,36 +14,43 @@ app.globalData.gdx.createApp({
         navbar: null,
         exampleList: [
             {
+                id: '1',
                 title: 'React',
                 introduction: '生命就像一盒巧克力，结果往往出人意料',
                 img: 'https://gw.alipayobjects.com/zos/rmsportal/uMfMFlvUuceEyPpotzlq.png'
             },
             {
+                id: '2',
                 title: 'Vue',
                 introduction: '希望是一个好东西，也许是最好的，好东西是不会消亡的',
                 img: 'https://gw.alipayobjects.com/zos/rmsportal/iZBVOIhGJiAnhplqjvZW.png'
             },
             {
+                id: '3',
                 title: 'Java',
                 introduction: '宇宙要是太谦虚了，明明拥有了一切，但还是叫做太空',
                 img: 'https://gw.alipayobjects.com/zos/rmsportal/iXjVmWVHbCJAyqvDxdtx.png'
             },
             {
+                id: '4',
                 title: '微信小程序',
                 introduction: '生命就像一盒巧克力，结果往往出人意料',
                 img: 'https://gw.alipayobjects.com/zos/rmsportal/uMfMFlvUuceEyPpotzlq.png'
             },
             {
+                id: '5',
                 title: 'uniApp',
                 introduction: '生命就像一盒巧克力，结果往往出人意料',
                 img: 'https://gw.alipayobjects.com/zos/rmsportal/iZBVOIhGJiAnhplqjvZW.png'
             },
             {
+                id: '6',
                 title: 'C语言',
                 introduction: '生命就像一盒巧克力，结果往往出人意料',
                 img: 'https://gw.alipayobjects.com/zos/rmsportal/iXjVmWVHbCJAyqvDxdtx.png'
             },
             {
+                id: '7',
                 title: 'VB',
                 introduction: '生命就像一盒巧克力，结果往往出人意料',
                 img: 'https://gw.alipayobjects.com/zos/rmsportal/uMfMFlvUuceEyPpotzlq.png'
@@ -82,5 +89,5 @@ app.globalData.gdx.createApp({
         } else {
             this.navbar.changeBgc(false)
         }
-    }
+    },
 })

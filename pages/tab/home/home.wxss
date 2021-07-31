@@ -3,7 +3,7 @@
 
 .home_header {
     height: 45px;
-    width: 90%;
+    width: calc(100% - 80rpx);
     margin: auto;
     font-size: 56rpx;
     font-weight: 600;
@@ -19,7 +19,7 @@
 }
 
 .home_panel {
-    width: 90%;
+    width: calc(100% - 80rpx);
     height: 90%;
     border-radius: var(--panelRound);
     box-shadow: var(--itemShadow);

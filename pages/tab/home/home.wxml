@@ -11,7 +11,7 @@
                 <i class="iconfont icon-geren3 person"></i>
             </view>
         </view>
-        <view class="home_container containerMiddle" wx:for="{{ exampleList }}">
+        <view class="home_container containerMiddle" wx:for="{{ exampleList }}" wx:key="item" data-id="{{ item.id }}"  bind:tap="toProDetailPage">
             <view class="home_panel">
                 <image class="home_panel_img" src="{{ item.img }}"></image>
                 <view class="home_panel_info">

@@ -1,6 +1,7 @@
 
 {
   "pages": [
+
     "pages/tab/home/home",
     "pages/tab/my/my",
     "pages/detail/proDetail/proDetail"

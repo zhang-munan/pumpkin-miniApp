@@ -2,6 +2,7 @@ const app = getApp()
 app.globalData.gdx.createApp({
   data: {
     identity: wx.getStorageSync("isAdmin"),
+    statusBarHeight: app.globalData.system.statusBarHeight
   },
 
   /**
@@ -12,6 +13,8 @@ app.globalData.gdx.createApp({
   /**
    * 页面创建时执行
    */
-  load () {},
+  load () {
+
+  },
 
 })

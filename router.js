@@ -9,6 +9,14 @@ export default {
         this.navigateTo('/pages/detail/proDetail/proDetail', { id: e.currentTarget.dataset.id });
     },
 
+    /**
+     * 跳转到项目详情画面
+     * @param e
+     */
+    toConsumptionPage(e) {
+        this.navigateTo('/pages/detail/consumption/consumption', { id: e.currentTarget.dataset.id });
+    },
+
     // /**
     //  * 跳转职位详情
     //  * @param e

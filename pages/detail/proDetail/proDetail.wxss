@@ -56,6 +56,36 @@
     padding: 8rpx 28rpx;
 }
 
+.proDetail_basicInfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 20prx;
+    border-bottom: 1rpx solid var(--border-ba);
+}
+
+.proDetail_basicInfo_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width:fit-content;
+    padding: 30rpx 0;
+}
+
+.proDetail_basicInfo_title {
+    font-size: 20rpx;
+    color: var(--font-hd);
+}
+
+.proDetail_basicInfo_content {
+    color: var(--font-hb);
+    font-size: 35rpx;
+    font-weight: 500;
+    padding: 15rpx 55rpx;
+    border-left: 1rpx solid var(--border-ba);
+}
+
 .proDetail_info {
     margin: auto;
     padding: 30rpx 0;

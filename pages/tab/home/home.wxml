@@ -1,6 +1,5 @@
 <view class="home_body">
-    <navbar id="navbar" background="#f3f3f3" title="案例" backTitle="取消"
-            :isShowBackGround="{{ isShowBackGround }}"></navbar>
+    <navbar id="navbar" background="#f3f3f3" title="案例" backTitle="取消" ></navbar>
     <scroll-view class="gdxScroll" scroll-y="true" bindscroll="bindScroll"
                  style="height:calc(100vh - {{ navbarHeight }}px);top:{{ navbarHeight }}px">
         <view class="home_header">
@@ -20,6 +19,9 @@
                     <view></view>
                 </view>
             </view>
+        </view>
+        <view class="gdxBottom containerMiddle">
+            敬请期待
         </view>
     </scroll-view>
 </view>

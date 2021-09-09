@@ -1,7 +1,6 @@
 const app = getApp()
 app.globalData.gdx.createApp({
   data: {
-    identity: wx.getStorageSync("isAdmin"),
     statusBarHeight: app.globalData.system.statusBarHeight
   },
 

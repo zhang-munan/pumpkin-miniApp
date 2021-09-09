@@ -3,7 +3,8 @@
         <i class="iconfont icon-sacha back_icon"></i>
     </view>
     <view class="proDetail_body">
-        <image class="proDetail_img" src="https://images.unsplash.com/photo-1621609764095-b32bbe35cf3a?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></image>
+        <image class="proDetail_img"
+               src="https://images.unsplash.com/photo-1621609764095-b32bbe35cf3a?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></image>
     </view>
     <view class="proDetail_header">
         <view class="containerMiddle">
@@ -20,10 +21,62 @@
             </view>
         </view>
         <view class="">
-            <view class="proDetail_get">购买</view>
+            <view class="proDetail_get" bind:tap="toConsumptionPage">购买</view>
             <view class=""></view>
         </view>
     </view>
+    <scroll-view class="proDetail_basicInfo_scroll" scroll-x="true" style="width: 100%">
+        <view class="proDetail_basicInfo">
+            <view class="proDetail_basicInfo_block">
+                <view class="proDetail_basicInfo_title">
+                    语言
+                </view>
+                <view class="proDetail_basicInfo_content" style="border-left: none">
+                    Java
+                </view>
+            </view>
+            <view class="proDetail_basicInfo_block">
+                <view class="proDetail_basicInfo_title">
+                    语言
+                </view>
+                <view class="proDetail_basicInfo_content">
+                    Java
+                </view>
+            </view>
+            <view class="proDetail_basicInfo_block">
+                <view class="proDetail_basicInfo_title">
+                    语言
+                </view>
+                <view class="proDetail_basicInfo_content">
+                    Java
+                </view>
+            </view>
+            <view class="proDetail_basicInfo_block">
+                <view class="proDetail_basicInfo_title">
+                    语言
+                </view>
+                <view class="proDetail_basicInfo_content">
+                    Java
+                </view>
+            </view>
+            <view class="proDetail_basicInfo_block">
+                <view class="proDetail_basicInfo_title">
+                    语言
+                </view>
+                <view class="proDetail_basicInfo_content">
+                    Java
+                </view>
+            </view>
+            <view class="proDetail_basicInfo_block">
+                <view class="proDetail_basicInfo_title">
+                    语言
+                </view>
+                <view class="proDetail_basicInfo_content">
+                    Java
+                </view>
+            </view>
+        </view>
+    </scroll-view>
     <view class="proDetail_info">
         <view class="proDetail_introduce">
             <text>秉承Moleskin品牌的卓越品质，《Flow由Moleshkin Studio呈现》 在设计方面也极尽巧思。</text>
@@ -33,7 +86,8 @@
         </view>
 
         <view class="step">
-            <image class="proDetail_screenshot" src="https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></image>
+            <image class="proDetail_screenshot"
+                   src="https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></image>
             <view class="proDetail_describe">
                 <text>你可以根据自己的喜好轻松调整笔的种类。</text>
             </view>
@@ -50,7 +104,8 @@
         </view>
 
         <view class="step">
-            <image class="proDetail_screenshot" src="https://images.unsplash.com/photo-1627664220128-ff2232937726?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></image>
+            <image class="proDetail_screenshot"
+                   src="https://images.unsplash.com/photo-1627664220128-ff2232937726?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></image>
             <view class="proDetail_describe">
                 <text>选择你心中完美的蜜桃色。</text>
             </view>
@@ -89,7 +144,8 @@
 
     <view class="proDetail_footer containerMiddle">
         <view class="proDetail_btn containerMiddle">
-            <i class="iconfont icon-fenxiang share"></i><text>分享</text>
+            <i class="iconfont icon-fenxiang share"></i>
+            <text>分享</text>
         </view>
     </view>
 </view>

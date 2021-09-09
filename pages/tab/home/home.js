@@ -8,9 +8,7 @@ app.globalData.gdx.createApp({
      */
     data: {
         navbarHeight: wx.getStorageSync("navbarHeight"),
-        isFixed: false,
         scrollTop: 0,
-        isShowBackGround: false,
         navbar: null,
         exampleList: [
             {

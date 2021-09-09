@@ -1,10 +1,10 @@
 
 {
   "pages": [
-
     "pages/tab/home/home",
     "pages/tab/my/my",
-    "pages/detail/proDetail/proDetail"
+    "pages/detail/proDetail/proDetail",
+    "pages/detail/consumption/consumption"
   ],
   "window": {
     "navigationStyle": "custom",

@@ -17,6 +17,10 @@ Component({
             type: Boolean,
             value: false
         },
+        delta: {
+            type: Number,
+            value: 1
+        }
     },
     data: {
         capsuleTop: '', //胶囊距离屏幕顶部的距离
